@@ -314,7 +314,7 @@ color: #000000;
     width: 100%;
 }
 .pictures__box{
-    background-image: url('/images/Rectangle\ 2.png');
+    background-image: url('./images/Rectangle\ 2.png');
     
     background-size: 25% 50%;
     height: 407px;
