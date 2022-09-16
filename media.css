@@ -1,0 +1,135 @@
+@media screen and (max-width:768px) {
+    #cover h1{
+        font-size: 56px;
+    }
+    #cover{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/%D0%90%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_%D0%BD%D0%B0_%D0%A5%D0%BE%D1%80%D1%82%D0%B8%D1%86%D1%83%2C_%D0%B2%D0%B8%D0%B4_%D1%81%D0%BD%D0%B8%D0%B7%D1%83%2C_2010_%28%D0%9F%D0%B5%D0%B4%D1%80%D0%BE_%D0%94%D0%B5%D0%BF%D0%B0%D1%80%D0%BA%D0%B5%D1%81%2C_panoramio_id_61288863%29.jpg/768px-%D0%90%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_%D0%BD%D0%B0_%D0%A5%D0%BE%D1%80%D1%82%D0%B8%D1%86%D1%83%2C_%D0%B2%D0%B8%D0%B4_%D1%81%D0%BD%D0%B8%D0%B7%D1%83%2C_2010_%28%D0%9F%D0%B5%D0%B4%D1%80%D0%BE_%D0%94%D0%B5%D0%BF%D0%B0%D1%80%D0%BA%D0%B5%D1%81%2C_panoramio_id_61288863%29.jpg');
+        background-size: 100% 100%;
+    }
+    .age .container{
+        max-width: 90%;
+    }
+    .age .age__row{
+        row-gap: 30px;
+    }
+    .project .col-4{
+        width: 100%;
+    }
+    .project__box p:nth-child(3) {
+        padding: 20px 0 30px 0;
+    }
+    .apply__wrap{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 15px;
+    }
+    #apply h3{
+        font-size: 29px;
+        text-transform: uppercase;
+    }
+    #apply p{
+        font-size: 18px;
+    }
+    body .building{
+        padding: 40px 0;
+    }
+    .building .col-4{
+        width: 100%;
+    }
+    .partners .container{
+        max-width: 80%;
+    }
+    .partners__row{
+        flex-direction: column;
+        row-gap: 45px;
+        align-items: center;
+    }
+    .partners__row img{
+        width: 90%;
+    }
+    .review .col-4{
+        width: 100%;
+    }
+    .review .review__row{
+        row-gap: 30px;
+    }
+    .pictures .pictures__box{
+        background-size: 50% 50%;
+    }
+    .request__wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        text-align: center;
+    }
+    #request h3{
+        font-size: 29px;
+        text-transform: uppercase;
+    }
+    #request p{
+        font-size: 18px;
+    }
+    .contacts .col-3{
+        width: 50%;
+    }
+}
+@media screen and (max-width:576px) {
+    #cover h1{
+        font-size: 40px;
+    }
+    #cover{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ibbenbueren_Innenstadt_5.jpg/567px-Ibbenbueren_Innenstadt_5.jpg');
+        background-size: 100% 100%;
+    }
+    .age .col-3{
+        width: 50%;
+    }
+    #apply h3{
+        font-size: 18px;
+    }
+    #apply p{
+        font-size: 13px;
+    }
+    #apply button{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    .building p{
+        font-size: 14px;
+    }
+    body .question{
+        padding: 40px 0;
+    }
+    body .partners{
+        padding: 40px 0;
+    }
+    body .review{
+        padding: 40px 0;
+    }
+    .review .row{
+        padding-top: 20px;
+    }
+    .review h2{
+        font-size: 28px;
+    }
+    #request h3{
+        font-size: 18px;
+    }
+    #request p{
+        font-size: 13px;
+    }
+    #request button{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    body .contacts{
+        padding: 40px 0;
+    }
+    .contacts .col-3{
+        width: 100%;
+    }
+    .footer .row{
+        padding: 10px 0;
+    }
+}
